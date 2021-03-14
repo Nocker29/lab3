@@ -30,3 +30,9 @@
 #     print('Jest to trojkat prostokątny')
 # else:
 #     print('To nie jest trójkąt prostokątny')
+
+# # zad5
+# def pole_trapez(a=2,b=4,h=3):
+#     p=(a+b)*h/2
+#     return p
+# print(pole_trapez())
