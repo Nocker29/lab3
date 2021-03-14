@@ -36,3 +36,11 @@
 #     p=(a+b)*h/2
 #     return p
 # print(pole_trapez())
+
+# # zad6
+# def ciag(a1=1,b=4,ile=10):
+#     lista=[a1]
+#     for i in range(1,ile):
+#         lista.append(b*lista[i-1])
+#     return lista
+# print(ciag())
