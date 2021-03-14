@@ -5,3 +5,13 @@
 # print(B)
 # C=[x for x in B if x%2==0]
 # print(C)
+
+# # zad3
+# zakupy={'Ziemniaki':'kg',
+#         'Bułki':'sztuki',
+#         'Konserwy':'sztuki',
+#         'Jabłka':'kg',
+#         'Tabliczka czekolady':'sztuki'
+#         }
+# lista_sztuki=[key for key,value in zakupy.items() if value.count("sztuki")==1]
+# print(lista_sztuki)
