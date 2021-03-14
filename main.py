@@ -15,3 +15,18 @@
 #         }
 # lista_sztuki=[key for key,value in zakupy.items() if value.count("sztuki")==1]
 # print(lista_sztuki)
+
+# # zad4
+# def trojkat_kwadratowy(a,b,c):
+#     if (c**2)==(a**2)+(b**2):
+#         return 1
+#     else:
+#         return 0
+# print('Podaj dwie przyprostokątne: ')
+# a=int(input())
+# b=int(input())
+# c=int(input('Podaj przeciwprostokątną:\n'))
+# if trojkat_kwadratowy(a,b,c)==1:
+#     print('Jest to trojkat prostokątny')
+# else:
+#     print('To nie jest trójkąt prostokątny')
